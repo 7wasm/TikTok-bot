@@ -97,7 +97,9 @@ async def record_tiktok(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == "__main__":
     if BOT_TOKEN == "YOUR_TELEGRAM_BOT_TOKEN":
-        print("الرجاء وضع BOT_TOKEN الصحيح في الكود.")
+        print(8086447530:AAFSUFZeICxq1_kZ7mAAG
+
+CL-dig63EFiMfU)
     else:
         app = ApplicationBuilder().token(BOT_TOKEN).build()
         app.add_handler(CommandHandler("start", start))
