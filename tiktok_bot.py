@@ -7,7 +7,9 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # ملاحظة: يجب وضع التوكن الخاص بك هنا
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+BOT_TOKEN = "8086447530:AAFSUFZeICxq1_kZ7mAAG
+
+CL-dig63EFiMfU"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
@@ -97,9 +99,7 @@ async def record_tiktok(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == "__main__":
     if BOT_TOKEN == "YOUR_TELEGRAM_BOT_TOKEN":
-        print(8086447530:AAFSUFZeICxq1_kZ7mAAG
-
-CL-dig63EFiMfU)
+        print("الرجاء وضع BOT_TOKEN الصحيح في الكود.")
     else:
         app = ApplicationBuilder().token(BOT_TOKEN).build()
         app.add_handler(CommandHandler("start", start))
